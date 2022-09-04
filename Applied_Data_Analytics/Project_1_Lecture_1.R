@@ -79,7 +79,7 @@ tildeX = (X - mean(X)) / (sd(X))
 
 mean(tildeX) < .0001
 
-# indeed smaller than .0001, we can conclude it is zero.
+# indeed smaller than .0001, we can conclude it is close zero.
 sd(tildeX) > 0.99999
 # and the Standard deviation is 1
 
