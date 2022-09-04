@@ -1,4 +1,4 @@
-# Math Problems and Notes
+# Math Problems and notes
 "
 https://share.goodnotes.com/s/UV6yFGW3RimdFQDNATKvN9   
 "
@@ -78,8 +78,10 @@ tildeX = (X - mean(X)) / (sd(X))
 
 
 mean(tildeX) < .0001
-# indeed smaller than .0001, we can conclude it is zero.
 
+# indeed smaller than .0001, we can conclude it is zero.
+sd(tildeX) > 0.99999
+# and the Standard deviation is 1
 
 # Problem  (F)
 
@@ -102,13 +104,12 @@ x = -0.5
 
 series = x^(0:n)
 
-1-x^(n+1)/(x-1)
+# pay attention to the parenthesis at the first fraction 1-x^, when copying the formula.
+
+(1-x^(n+1))/(x-1)
 
 series
 sum(series)
-
-
-
 
 
 
