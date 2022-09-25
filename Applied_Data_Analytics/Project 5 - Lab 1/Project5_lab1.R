@@ -180,6 +180,10 @@ NOT Attractive & NOT Femlale = NOT Attractive OR NOT Female"
 
 not_attractive_or_not_Female = ((beauty$female != 1) | (beauty$looks <=3))
 
+# it also works with the "!" operator:
+all.equal(!attractiveFemale, !(beauty$looks > 3) | !(beauty$female == 1))
+
+
 # We can identify if the two vectors are the same either by summing them and checking if their values are the same.
 # Or we can use the all.equal command which checks for every elements,
 # and it also reports mismatches. 
