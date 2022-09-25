@@ -156,6 +156,7 @@ highEduc_or_highExp_and_Goodhlth = ((beauty$educ >= 14) | (beauty$exper > 10)) &
 
 mean(beauty$lwage[which(highEduc_or_highExp_and_Goodhlth)])
 #average log wage for people with the following conditions = 1.78
+hist(beauty$lwage[which(highEduc_or_highExp_and_Goodhlth)]) # plot a histogram aabout the group.
 
 
 
