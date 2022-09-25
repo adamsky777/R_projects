@@ -131,7 +131,7 @@ display which histogram is related to which category
 (so set for example main = attractive malein the plotting options)"
 
 
-par(mfrow = c(1, 4))
+par(mfrow = c(2, 2)) # when plotting 4 grahs together,  it's better to use 2,2, plot 2 on the left 2 on the right.
 hist(beauty$lwage[which(attractiveFemale)], main = "Attractive Females")
 hist(beauty$lwage[which(female_Not_Attractive)], main="Not Attractive Female")
 hist(beauty$lwage[which(attractiveMale)], main = "Attractive Male")
