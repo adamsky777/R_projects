@@ -8,4 +8,4 @@ Thirdly, we are given a list of the median uptakes for all mice at the first tim
 This is all information for the first time interval. The system then continues, but for time interval 2.
 Fourthly, we are given a list of the maximum uptakes for all mice at the second time interval.
 This continues cyclically until the three variables are covered in all 265 time- periods.
-Consider the following (screen-shot:) [https://raw.githubusercontent.com/adamsky777/R_projects/main/Applied_Data_Analytics/Project%209%20-%20Lab%202/tumor_imaging_appendix.png]
+Consider the following [screen-shot:](https://raw.githubusercontent.com/adamsky777/R_projects/main/Applied_Data_Analytics/Project%209%20-%20Lab%202/tumor_imaging_appendix.png)
