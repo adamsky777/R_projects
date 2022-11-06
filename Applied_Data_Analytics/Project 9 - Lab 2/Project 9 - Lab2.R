@@ -162,18 +162,3 @@ plot(colMeans(tumor.max), type="l", ylim=c(0,max(meansOfMaxes)), ylab="Means")
 points(colMeans(tumor.mean), type="l", col=2,lty=2)
 points(colMeans(tumor.median), type="l", col="blue",lty=3)
 legend("bottomright", c("Means of maxes", "Means of means", "Means of medians"), col=c(1,2,3), lty=c(1,2,3))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
