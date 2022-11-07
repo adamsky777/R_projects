@@ -12,8 +12,9 @@ brain_data[brain_data < 0] = NA # assign NA to values that are less than zero in
 brain_data = na.omit(brain_data) # omit records with NA from the dataframe
 View(brain_data)
 
+
  "since we omitted records we need to assign new row numbers to the record by using this command:
- by default if we omit rows in R rows counts will be the follwong 1,2,4,5 (since we omitted row 3rd)
+ by default if we omit rows in R rows counts (in R called rownames) will be the follwong 1,2,4,5 (since we omitted row 3rd)
  We want to have adequate rownames to the date so we have to assign to our dataframe again.
  Hence we will get row 1,2,3,4"
 n = length(brain_data$Height)  # first getting the sample size
