@@ -1,0 +1,18 @@
+TY  - JOUR
+AU  - Baier, Fabian
+AU  - Berster, Peter
+AU  - Gelhausen, Marc
+PY  - 2022
+DA  - 2022/02/01
+TI  - Global cargo gravitation model: airports matter for forecasts
+JO  - International Economics and Economic Policy
+SP  - 219
+EP  - 238
+VL  - 19
+IS  - 1
+AB  - The reliability of forecast models in the aviation sector is an important factor for industry and policy makers likewise. Expanding airports and fleets usually is a cost and time intensive process, and in order to maintain efficient market behavior, accurate anticipation of future demand and structural changes is attempted. We present a new quantitative approach to air cargo forecasts utilizing global airport-dyadic ICAO CASS data in general linearized airport fixed effects gravity models. While the strong explanatory power of our time invariant constant model has its natural difficulties predicting a variety of smaller indicators from previous models found in literature, we achieve very good results for selected time variant variables as gross domestic product per capita or kerosene prices. This makes our model a perfect tool for forecast simulations: extrapolating general economic forecast data provided by IHS Markit yield similar results to Boeing cargo forecasts (2020), with a slight decrease in the long run. Additionally, we do not need to split or control our sample in regional groups due to airport fixed effects, which makes the model on the other hand suitable for country- and airport level forecasts as well. The utilization of a large unique bilateral freight data set also helps answering classical gravity model questions in aviation: we track the distance effect to a matter of sample selection, finding no significant interaction following state of the art gravity econometrics.
+SN  - 1612-4812
+UR  - https://doi.org/10.1007/s10368-021-00525-2
+DO  - 10.1007/s10368-021-00525-2
+ID  - Baier2022
+ER  - 
